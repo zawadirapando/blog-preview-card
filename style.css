@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    font-family: Figtree;
+}
+
+.card {
+    max-width: 320px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 6px 6px;
+}
+
+.course-image {
+    width: 100%;
+    display: block;
+    border-radius: 16px;
+}
+
+.content > * {
+    padding: 5px;
+}
+
+p:nth-child(1) {
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    width: fit-content;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+p:nth-child(2) {
+    margin-top: 5px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 7%);
+}
+
+p:nth-child(3) {
+    font-weight: 900;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.pointer:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+p:nth-child(4) {
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 42%);
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.creator img {
+    max-width: 30px;
+    display: block;
+}
+
+.creator p {
+    font-size: 0.8rem;
+    font-weight: 800;
+}
